@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.our-story { 
+    padding: 80px 40px;
+    
+}
+
+
+@media(max-width:992px){
+
+    .our-story { 
+          padding: 80px 40px;
+         
+    }
+
+
+    .story img{  width: 100%;}
+}
+
+/* OUR STORY END */
+
+.why-choiceUs{ position: relative;}
+.why-choiceUs .why1{color: red;width: 40%; height: 5px; position: relative;top: 30px; }
+.why-choiceUs .why2{color: blue;width: 40%; height: 5px;position: relative;bottom: 30px; left: 60%;}
+.why-choiceUs h5{color: green;text-align: center;}
+.choice-us{  padding: 80px 40px; }
+.choice-us .box{ border: 2px solid green;  padding: 40px 10px; text-align: center; }
+.choice-us .box i{  font-size: 30px; padding: 10px;}
+
+@media(max-width:830px){
+
+    .why-choiceUs .why1{color: red;width: 30%; }
+.why-choiceUs .why2{color: blue;width: 30%; left: 70%;}
+}
+@media(max-width:992px){
+
+     .choice-us{ padding: 80px 40px;}
+     .choice-us .box{  margin: 10px 0px; padding: 20px 10px;}
+}
+
+
+
+/* WHY CHOICE US END */
