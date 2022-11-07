@@ -24,12 +24,12 @@ const swiper = new Swiper('.swiper', {
 
   
 
-  // let load=document.getElementById("preloaded");
+  let load=document.getElementById("preloaded");
 
-  // window.addEventListener("load",function(){
+  window.addEventListener("load",function(){
 
-  //      console.log("helo")
-  // })
+       console.log("helo")
+  })
 
 
 
@@ -92,12 +92,22 @@ new Glider(document.querySelector('.glider'), {
      
     }
   },
+  
+  {
+    // screens greater than >= 1024px
+    breakpoint: 380,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+     
+    }
+  },
 
   {
     // screens greater than >= 1024px
     breakpoint: 0,
     settings: {
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
      
     }
@@ -657,7 +667,7 @@ new Glider(document.querySelector('.raj'), {
     // screens greater than >= less then 640
     breakpoint: 640,
     settings: {
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
      
     }
@@ -668,7 +678,7 @@ new Glider(document.querySelector('.raj'), {
     // screens greater than >= 1024px
     breakpoint: 500,
     settings: {
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
      
     }
@@ -676,12 +686,22 @@ new Glider(document.querySelector('.raj'), {
 
   {
     // screens greater than >= 1024px
-    breakpoint: 0,
+    breakpoint: 460,
     settings: {
-      slidesToShow: 2,
+      slidesToShow:1,
       slidesToScroll: 1,
      
     }
-  }
+  },
+
+  // {
+  //   // screens greater than >= 1024px
+  //   breakpoint: 0,
+  //   settings: {
+  //     slidesToShow: 1,
+  //     slidesToScroll: 1,
+     
+  //   }
+  // }
 ]
 })
