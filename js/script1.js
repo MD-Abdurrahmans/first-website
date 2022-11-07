@@ -76,7 +76,7 @@ new Glider(document.querySelector('.glider'), {
     // screens greater than >= less then 640
     breakpoint: 640,
     settings: {
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
      
     }
@@ -87,7 +87,7 @@ new Glider(document.querySelector('.glider'), {
     // screens greater than >= 1024px
     breakpoint: 500,
     settings: {
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
      
     }
@@ -686,7 +686,7 @@ new Glider(document.querySelector('.raj'), {
 
   {
     // screens greater than >= 1024px
-    breakpoint: 460,
+    breakpoint: 450,
     settings: {
       slidesToShow:1,
       slidesToScroll: 1,
