@@ -19,6 +19,7 @@ const swiper = new Swiper('.swiper', {
   
   });
 
+  document.body.style.overflowX="hidden"
 
 
 
@@ -58,7 +59,7 @@ new Glider(document.querySelector('.glider'), {
     settings: {
       // Set to `auto` and provide item width to adjust to viewport
       slidesToShow: 5,
-      slidesToScroll: 2,
+      slidesToScroll: 1,
       itemWidth: 150,
       duration: 0.25
     }
