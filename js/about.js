@@ -1,12 +1,12 @@
 
   // preload
 
-  let load=document.getElementById("preloaded");
+  // let load=document.getElementById("preloaded");
 
-  window.addEventListener("load",function(){
+  // window.addEventListener("load",function(){
 
-    load.style.display="none";
-  })
+  //   load.style.display="none";
+  // })
 
 
 
