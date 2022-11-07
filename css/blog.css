@@ -17,3 +17,36 @@ li a{ text-decoration: none;}
 .second-half p{ padding-top: 10px;}
 .sm-btn{ padding: 5px 20px; margin: 10px; border: 0; background-color: black;color: white;}
 .sm-btn:hover{ background-color: rgb(24, 24, 24);}
+
+
+@media(max-width:450px){
+
+    .blog-div{
+        position: relative;
+        left: 1px;
+    }
+
+    .date-flex {
+        display: block;
+        justify-content: space-between;
+        padding: 7px 7px;
+    }
+    .fa-regular, .far {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .first-half img {
+        width: 80px;
+        margin: 0px 6px 32px 0px;
+    }
+
+
+    .sm-btn {
+        padding: 5px 31px;
+        margin: 10px 0px;
+        border: 0;
+        background-color: black;
+        color: white;
+    }
+}

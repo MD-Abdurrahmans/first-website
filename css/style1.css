@@ -597,3 +597,104 @@ footer{ background-color:rgb(226, 238, 226) ;}
 
   .align{   position: relative;left: -30px;}
 }
+
+
+@media(max-width:450px){
+  .image img {
+    width: 78%;
+    left: -7px;
+}
+
+.slider .image {
+  height: 250px;
+  margin-left: 0px;
+}
+.image{
+  width: 97%;
+}
+.slider .image img {
+  height: 103px;
+}
+.glider-slide {
+  user-select: none;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  min-width: 137px;
+}
+
+.slide-btns button {
+  margin-right: 86px;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 60%;
+}
+
+.showOff .col-6 {
+  flex: 0 0 auto;
+  width: 94%;
+}
+
+.card img {
+  width: 16rem !important;
+  border-radius: 0;
+}
+
+.card {
+  width: 16rem!important;
+  border-radius: 0;
+  margin: 20px 0px !important;
+}
+.show{
+  margin-left: 25px;
+}
+
+.p2-button button[type="button-active"].active,.p2-button button{
+  background-color: red;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px 40px;
+  text-align: center;
+  
+}
+
+.funfact {
+  text-align: left;
+  padding: 20px 15px;
+}
+
+.row>* {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 87%;
+  margin-left: 16px;
+}
+.trending-product {
+  text-align: center;
+  padding: 41px 30px;
+}
+.funfact2 .section-m1 {
+ 
+ 
+}
+.funfact2{
+  margin: 0px 24px;
+}
+.funfact2 h2, p{
+  text-align:left;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.email input,.email input[type="submit"] {
+  width: 300px;
+}
+
+
+}
